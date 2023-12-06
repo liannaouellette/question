@@ -1,0 +1,81 @@
+* {
+    background-color: rgba(244, 238, 236, 0.929);
+    margin: 5;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;;
+    /*This makes my entire code bold unless i change it*/
+}
+
+.pic {
+    padding-left: 200px;
+    float: left;
+}
+.apple {
+    font-size: 30px;
+    padding-left: 500px;
+    padding-top: 80px;
+}
+
+hr {
+   border-color: black;
+   position: relative;
+}
+
+.ingre {
+    font-size: xx-large;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.dir {
+    font-size: xx-large;
+    padding-left: 200px;
+    
+}
+
+.step {
+    font-weight: 7000;
+}
+.steps {
+    font-weight:500;
+}
+
+.step1 {
+    font-weight: 7000;
+    padding-left: 25px;
+}
+.steps1 {
+    font-weight:500;
+    padding-left: 20px;
+}
+
+.image {
+    width: 250px;
+    margin: 20px;
+   padding-left: 600px;
+   padding-top: 50px;
+   position:absolute;
+
+  }
+
+.tr {
+    font-weight:500;
+    background-color: rgb(173, 124, 110);
+    height: 10px;
+   
+}
+.th {
+    background-color: rgb(173, 124, 110);
+    height: 10px;
+    align: center;
+   
+}
+.info {
+   background-color: rgb(173, 124, 110);
+width: 450px;
+height: 130px;
+padding-right: 50px;
+border-radius: 50px;
+padding-left: 50px;
+;
+}

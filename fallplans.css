@@ -1,0 +1,58 @@
+* {
+    background-color: white;
+    margin: 5;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;;
+    /*This makes my entire code bold unless i change it*/
+}
+
+.center {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    /*this writing is completely different from all the other titles in my code*/
+    font-weight: bold;
+    font-size: xxx-large;
+    top: 50px;
+}
+
+.length {
+    padding-left: 100px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    /*this adds lines in between the words in my table*/
+    width: 100%;
+    left: 200px;
+  }
+
+  th {
+    border: 1px solid white;
+    text-align: middle;
+    padding: 6px;
+    left: 200px; 
+  }
+  button {
+    color: rgb(16, 10, 10);
+    height: 30px;
+    font-size: 20px;
+    width: 200px;
+}
+
+.day {
+    font-size: xx-large;
+   
+}
+
+hr {
+    border-color: black;
+}
+
+.big {
+    font-size: x-large;
+   
+}
+.small {
+    font-weight:530;
+    

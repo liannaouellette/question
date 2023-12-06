@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<head>
+    <title>Spring Meal Plans</title>
+    <link rel="stylesheet" href="fallplans.css">
+    <!--This code goes to my css page-->
+</head>
+
+<body>
+    <img src="data:image/jpeg;base64,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" class=length length="600" width= "300" hspace="25"> 
+     <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBEREREREBEQEBAREBAQEBEQDhAPEA4RFxMYGBcTFxcaICwjGhwoHRcXJEIkKC0vMjIyGSI4PTgxPCwxMi8BCwsLDw4PGRERGTEgICAxMTIxMTEvLzExLzEyMS8xLzExMS8xLy8vMTEvMTExMTExLzExLzExMTExMTExLzEvMf/AABEIAOAA4QMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAAAwECBAUGB//EAD8QAAIBAgIHBAgDBwMFAAAAAAECAAMREiEEBTFBUWGBInGRoRMyQlJyscHRBmLwIzNDgrLC4RRjoxVTc5KT/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAIDAQQF/8QAMREAAgIBAgQDBwMFAQAAAAAAAAECEQMSIQQxQVETYXGBkaGx0eHwUsHxBRUiIzIU/9oADAMBAAIRAxEAPwD7NCEIAEIQgAQhCABCEIAEIQgARNWqqAliABmSTYCWqOFBJNgBc8p5jWGltVbeKYPZHH8xiylpRfBgeWXZLm/zqa9K12b2pLfmwNugnPbWdc+3bkFX7RQSTgkHOT6nrQwYYKlFP13+f7UdjVms7qRWYKy53Yhbr+vpH0tc0mfDcgbmOSk/TrPOFJJSN4jJS4LE23b37dD2quDLTy2rdYtTIVyTT2cSn+OU9MjhhcSsZWjzc2GWKVP2MvCEIxEIQhAAhCEACEIQAIQhAAhCEACEIQAIQhAAhKswAuSAOJNhM+nV/R0nfK6rlfZiOQ8yIGxTbSXU1QnlDrfSD7eH+RPqJC6z0gfxPFUP0k/ER3f2/J+pfH6HrITztHXNUeuEYdUbx2eU6Wj6yp1MrlG91+zfuOwxlOLIZOGyQVtWvLf7mXXWkbKY35t3bh4/KckLH1qmN2bixt3DIQCyE5Wz0MMfDgo9evqKwycMcFhhmUPqM+GGCaMEgpA3UZWSdTUulYb02OQBKkndvHSY2SJq07gzYy0uzMkVljpf8Hc0nWyLkg9IeItg8d/Sc2rras2wqnwoD/VeZKWYlisPEkxIcPih0v13+xb/AKlXH8RvBT9I/R9eVF/eBXG8gYW8svKY2SLdYKTRZ4sUlTivdXyPW6JpaVlxIb22g5MveJpnmfw8P2xz/ht81/XSeml4StHkcTiWLJpTCEIRiAQhCABCEIAEIQgARbuFBYmwAJJ4ARk434hrWpqg9ts/hW2XiR4TG6VlMWPxJqPf8fwORrDTmrNc3CA9hPqecQS1guJsIzC4jhB422QRY5VnNdnvf4xSilsiiLGBZZVjVWFE5SFBJcJGBZcLMJuZlNIjNfCPpNeNCxb07dpesyjNV7MYFlsEhGuJeOiTbKYIFZeRNC2KKShSPMLRBtRiojMjnGFZKL2zGlYIpKW5nZYlxNTLFMsahoyMeHf+hOrqDST6RkZmIZbriYmzDhflfwmJ1ldDa1ekf9xR0JsfIwi6djZY+JjlHyPZQhCdJ4IQhCABCEIAEIQgATzv4gzqIOFO/ix+09FOFr9O3TbirDwN/rEyf8nVwbrMvacpVj1WVQRqic56cpAEjFWWVZcLHIuRAWTaTJtASyskCTCKZYkjCeR+cbeDrcWi6T5Z7RkYG80MvC8reF5hlFoWgJO6AGdB2jHESlLeecvNQz5lGWLZY1nEQ9Ubs5tjRti2EVRX9rT/APJT/qEuzk+yfCGiH9rTLgqocMWOwWzHmBFW7Lp0mz10JnTSqbZLUQnhiF/CaJ1p2eE01s1QQhCBgQhCABCEIAE5+t6WKlcbUOPpsPkb9IvTNb06d1XtuNoByU8z9pydI1hWqAgtgB3J2fPb5yc5Kmjs4fh8lqfJeYII5REaM2IcxkZpQSB2z2dF1EmRLiORYSJMgmBgEyuKVZoovFHUTSpmer2X5ML9d/0lkeV0zNMW9SD02GY+RsVUq7k44B5mFSSjzLKaDYphUaykyqNIdC9hsXaTvPITSNb7lEqWAAzPKNCMdpt3S6oF2CTCgcuwsUlG6/fnJtLSIBYthFMJoIi2WFDxZlYS1HTKtL1WNvdbNPDd0tLMIlhBOuRbaSp7nd0DWaVeyew/AnJvhP0nTniGG8ZbwRtBnpNUad6VSG/eJYN+Ybm/X1l4TvZnBxXCqC1w5dV2OnCEJQ4QnnNa61LH0dI9nY7j2uSnhz39230LAEEHYRn3TxVRAruqm6q7KDxANgZPI2lsd3A44yk5Pdr8/gsiR6rKU49RIHozkygGE4hs3zYpvmIsLeQvYNj6p8oEJO/UfLGQBJM0kwMozSTFOYDRQt2imaS7TPUeI2dEYllrWM102DAr7wK+InGqPLaNpljYmLqplZYG1aGJVyz2y6Vc5iq1bO/xsehN5o1VS9K5J/dpa/5juX9fWYnexWcEouT5HX0aniszbNw485pJlKlQCINWV5Hm05bmgtIvEB41TNBxovLSBJE2hStpRhLyHmmozuIlhHvEMYrLxEOI7U9XBXXgxKHnfZ52iKhnU/D+j0ziqHOorWAPsC2Rtzzz5TYJt7DZpKGKTly5e89DCEJ0nhHl9fV2aqUucKqow3OEki9yOomBVmzXiW0gn3lRh3Ww/wBsz05zT5s97DSxRrsi6LHoJRY5IIWTGIJZlvKekAgGY7BbvhZBpkhinNflGqwIuIv0V9pPykCiFzXLzvMMdMaRF1FgKwGTZc90aLHZn3QRm6OfVWYa07T0rzFX0aJKJ1YsiOJWe0zpo1Wpmi5bicgZ0DoeKoAdm087TqqthYbNwtkJ53FcT4TUUtzrlxGhLTzPOVtC0hAWKhuOBi1rCd7RCtKkiZYrYnPFzt+3SOtwvu2Tk61vTKsNjZHPfa8XheM1S0y5k3keeoPb9+xsfSrwSpeculUvNtJp6ClY0sSib0aPQzJTaaEMqjkmjSJeUEtHOdgZDSxlGgCEsIhxHsYhzFsvAzuJq1IjGuCpsFDF+Y2W8SPCZKrT0GpdE9HTxMLM9mI91dw+vWNBXI3icihhfnt9fgdWEIToPEONr/RcSrUUZpk3wHf0PzM4tOewZQQQRcHIg5giec1hoBpNdbmmTkfc5H7yOSPVHpcHnTj4b59BCmTjJNl8YjFiNh1mmkLSR1yVDqVIDM5mPEWkuI5zSbZYypMsZQwMQqoZiq3GakqeRImyoJndZNnRjdGX/XVl3hviS/ytIfW9Ufw6R/8AoPrL1EmT0TOSFGzaTsXvk22uTOqMcb5xXuJ0bWD1KoVlpqCDhwBgb87k851fHy2TzunUcFgpOIG+LYb8uE06LrYgWqqSRsKjLvtfbPN4vh5zlqjublwWlLGtux2Tx+vyM4/4gqgLTW+Ze9uKgbZqTWCtlTB6iwE5GnUahqn0uZ2pb1cG63623k+G4aakpyVJBw+P/YtW1bldHedGiCYrRcK+snVc/KdbR1pt6rJ3E4T4GepBFM+WuhSkhmtFjVo2lwkukedLImQol4AQtNIsgyGkkSjGFmoS8Q5jKtUCdPQtWrk7lal7FQpvT7/zfKEY6uRSWRYlqkZdVatxkVag7IzRT7R3MeXz7tvoYQnTGNKjzM2WWWVv2eQQhCaSCJ0llVGL2KhSWBFwRwtvjpxvxDWsiIPaa5+Fd3iR4TJOlZTDj8Saj3OLTtckDCCSQLnLPZczUkzUppSc6PayGinLxSGMBmnLLmXkGSJEBRbiIdZpMQVxmwyG8xGVizMtI1DYZKPWbh/mMqKqLhUWA8SeJ5zWVCiwyEyaRMqh4y1PyOPXTEYk0Z0GpSDSktJ3xy0hOh07GdDWei+kohgO3Suw5r7Q8M+kVQSxnVojKPGO1HNmytTU10PO0M7TZTpg7pT/AE+BmUbAxA7t3lNFNYsUUyTT3RemhHqsw5Am3hNCtU4g99vpKIJoUR6OSciod+A85OJuA8ZcSY1MlfkIYvyEo1MnaZplGhQykZvRATVq/TPRthb92Tn+Q8Ry4xDxDQTp2ijisiqR6+E5WpdKxoUPrJa3NN3hs8J1Z1J2rPIyQcJOL6BCEJogTzf4hb9qg4UwepY/YT0k5+stCpVFLv2WVT2xtAGefERZq1R0cLkjjyJy9PeecRo9WmOnNKSCPYnGjShjkMzKY5TNOaSGwkAyGa0VsSitQ7htMui4RaVoi+Z3/KMMxA+xVpldZqIlGSaNF0ZCkqUmo05XBMorrF00mymMopFjlgic3ZmrU+33gfaHo42owxqN5Bt0lysWjNTSQpVjAJa0BGQrdlpBkyscwgmKcy7mJZoDxRVzEMYxjFMYheKH6prYa68G7B6jLzAnqp4zQ861K3/cp/1C89nL4+Rw/wBQjUovyCEIShwBObrqiz0WC3ys5A9oDaPr0nShMatUPjm4TUl0PDoY9Wm7WeqSpNSkLg5sgGanio3jlu+XLVpzSTT3PdhOOWOqP8GtWjVMyq0arTCcomlWi6rXIEqGlaRuxPCYJprc1rlLxYMsIyJUWhaF5MYUraQRLyJhtlAJcSskRQM+ki7LxAjadS+R2/PnKnN+4CWdL98Ud8khlpEUKlsm8Ze94wtFpDNKs0WzTbNUSWMSxgzRTPNstGJV3iWaWczo6m1fSqq7OCxD4QMRAAsDfLv8oJW6KTnHHDVLkK1FQL1cfs0wT/NawHzPSepmfRtFSmuFFwi9ztNzxuZol4xpHj8Tm8WepcugQhCMQCEIQAJi0nV9KpmyDF7w7LdTv6zbCFDRk4u4ujjNqNfZdh8QDfK0BqX/AHP+O3907MImiPYt/wCrN+r4L6HNp6pQbWduVwB5Z+c5emU1Sq6qMKjCAM/dB+s9NPNa0Nq7/wAhH/qv2izikti/CzlObUn0/dEK0crTIrRqtInVKJovCKDy6tHJaWWvC8i8i8xmUTeTeVvF1nsOZyEUagpG5J4mNi6eQly01IHzIdQdsQylfVMaWlS01oaNoSa/vCVNUHfGNaIdBEKxUSrVBKorv6iu3wqW+U6uoaYxubA9kbuf+J35WOO1ZDNxaxT0qN+38+Z5nRtSVHzqEIvDa56DITu6JoiUVwoDmbkk3JPEzTCVUUjhzcTky7Pl2QQhCMQCEIQAIQhAAhCEACEIQAJ57X6WdG3FcPVT9j5T0Mw610X0tIqPWHbTvG7qLjrFkrRfhsihlTfLl7/uecVo0NMiNGeknMezKG5qVpcGZUaMDQJuI+8nFE4pGOAmkdiiC+JuQyE16Bo5qNn6i5seP5YvTdCNE5XNMnsttw/lM3S6syMoqem9/wA+JXFJxTPjk44IfQNZpXFFM0oKk2xlEazRbNKs8ois7BFF2Y2A5zB1E72oE7DvxYAcwo+5PhOxEaLRFNFQbFFr8TvPU3j50xVKjw809eRyQQhCaTCEIQAIQhAAhCEACEIQAIQhAAhCEAOHrDU7PUx0yihs3DXHa4iw3/rbOXp2hPQZQxDBgSCL7rXHmJ7Cc/Wer/The1hZb4TtBva4PgJOUFzR3YOMlFxjN/4+nu8zzStLB5pfU1ddgV+auP7rSE1RpHuheZdbeRJktL7HoPLi56l70JxzToWivVOWSj1nOwchxM26LqQDOo2L8q3C9TtPlOwiBQAoAAyAAsBHji7nHm4yK2x7vv0+/wAvUpQoqihVFgPEniecu6BgQwBByIOYIl4Sx5zbbs8/p2p2F2o5j3Ccx3E7es5LYlOFgVI3MCDPbRVWkrizqrDgyhh5ybx9jtxcdKKqav5/Q8aakZ/pKuD0mA4Nt8r242225z0T6ooE39HbuLAHpeb1UAWGQGQA3TFj7lZ/1CKS0L1s8VRpPUOFFLHlu5k7p6PVerRSGJrNUIsSNijgPvOgiKosoAHAAARkaMEiGfjJZFpSpfMIQhHOMIQhAAhCEACEIQA//9k=" class=length length="600" width= "300">
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBEREREREBEQEBAREBAQEBEQDhAPEA4RFxMYGBcTFxcaICwjGhwoHRcXJEIkKC0vMjIyGSI4PTgxPCwxMi8BCwsLDw4PGRERGTEgICAxMTIxMTEvLzExLzEyMS8xLzExMS8xLy8vMTEvMTExMTExLzExLzExMTExMTExLzEvMf/AABEIAOAA4QMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAAAwECBAUGB//EAD8QAAIBAgIHBAgDBwMFAAAAAAECAAMREiEEBTFBUWGBInGRoRMyQlJyscHRBmLwIzNDgrLC4RRjoxVTc5KT/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAIDAQQF/8QAMREAAgIBAgQDBwMFAQAAAAAAAAECEQMSIQQxQVETYXGBkaGx0eHwUsHxBRUiIzIU/9oADAMBAAIRAxEAPwD7NCEIAEIQgAQhCABCEIAEIQgARNWqqAliABmSTYCWqOFBJNgBc8p5jWGltVbeKYPZHH8xiylpRfBgeWXZLm/zqa9K12b2pLfmwNugnPbWdc+3bkFX7RQSTgkHOT6nrQwYYKlFP13+f7UdjVms7qRWYKy53Yhbr+vpH0tc0mfDcgbmOSk/TrPOFJJSN4jJS4LE23b37dD2quDLTy2rdYtTIVyTT2cSn+OU9MjhhcSsZWjzc2GWKVP2MvCEIxEIQhAAhCEACEIQAIQhAAhCEACEIQAIQhAAhKswAuSAOJNhM+nV/R0nfK6rlfZiOQ8yIGxTbSXU1QnlDrfSD7eH+RPqJC6z0gfxPFUP0k/ER3f2/J+pfH6HrITztHXNUeuEYdUbx2eU6Wj6yp1MrlG91+zfuOwxlOLIZOGyQVtWvLf7mXXWkbKY35t3bh4/KckLH1qmN2bixt3DIQCyE5Wz0MMfDgo9evqKwycMcFhhmUPqM+GGCaMEgpA3UZWSdTUulYb02OQBKkndvHSY2SJq07gzYy0uzMkVljpf8Hc0nWyLkg9IeItg8d/Sc2rras2wqnwoD/VeZKWYlisPEkxIcPih0v13+xb/AKlXH8RvBT9I/R9eVF/eBXG8gYW8svKY2SLdYKTRZ4sUlTivdXyPW6JpaVlxIb22g5MveJpnmfw8P2xz/ht81/XSeml4StHkcTiWLJpTCEIRiAQhCABCEIAEIQgARbuFBYmwAJJ4ARk434hrWpqg9ts/hW2XiR4TG6VlMWPxJqPf8fwORrDTmrNc3CA9hPqecQS1guJsIzC4jhB422QRY5VnNdnvf4xSilsiiLGBZZVjVWFE5SFBJcJGBZcLMJuZlNIjNfCPpNeNCxb07dpesyjNV7MYFlsEhGuJeOiTbKYIFZeRNC2KKShSPMLRBtRiojMjnGFZKL2zGlYIpKW5nZYlxNTLFMsahoyMeHf+hOrqDST6RkZmIZbriYmzDhflfwmJ1ldDa1ekf9xR0JsfIwi6djZY+JjlHyPZQhCdJ4IQhCABCEIAEIQgATzv4gzqIOFO/ix+09FOFr9O3TbirDwN/rEyf8nVwbrMvacpVj1WVQRqic56cpAEjFWWVZcLHIuRAWTaTJtASyskCTCKZYkjCeR+cbeDrcWi6T5Z7RkYG80MvC8reF5hlFoWgJO6AGdB2jHESlLeecvNQz5lGWLZY1nEQ9Ubs5tjRti2EVRX9rT/APJT/qEuzk+yfCGiH9rTLgqocMWOwWzHmBFW7Lp0mz10JnTSqbZLUQnhiF/CaJ1p2eE01s1QQhCBgQhCABCEIAE5+t6WKlcbUOPpsPkb9IvTNb06d1XtuNoByU8z9pydI1hWqAgtgB3J2fPb5yc5Kmjs4fh8lqfJeYII5REaM2IcxkZpQSB2z2dF1EmRLiORYSJMgmBgEyuKVZoovFHUTSpmer2X5ML9d/0lkeV0zNMW9SD02GY+RsVUq7k44B5mFSSjzLKaDYphUaykyqNIdC9hsXaTvPITSNb7lEqWAAzPKNCMdpt3S6oF2CTCgcuwsUlG6/fnJtLSIBYthFMJoIi2WFDxZlYS1HTKtL1WNvdbNPDd0tLMIlhBOuRbaSp7nd0DWaVeyew/AnJvhP0nTniGG8ZbwRtBnpNUad6VSG/eJYN+Ybm/X1l4TvZnBxXCqC1w5dV2OnCEJQ4QnnNa61LH0dI9nY7j2uSnhz39230LAEEHYRn3TxVRAruqm6q7KDxANgZPI2lsd3A44yk5Pdr8/gsiR6rKU49RIHozkygGE4hs3zYpvmIsLeQvYNj6p8oEJO/UfLGQBJM0kwMozSTFOYDRQt2imaS7TPUeI2dEYllrWM102DAr7wK+InGqPLaNpljYmLqplZYG1aGJVyz2y6Vc5iq1bO/xsehN5o1VS9K5J/dpa/5juX9fWYnexWcEouT5HX0aniszbNw485pJlKlQCINWV5Hm05bmgtIvEB41TNBxovLSBJE2hStpRhLyHmmozuIlhHvEMYrLxEOI7U9XBXXgxKHnfZ52iKhnU/D+j0ziqHOorWAPsC2Rtzzz5TYJt7DZpKGKTly5e89DCEJ0nhHl9fV2aqUucKqow3OEki9yOomBVmzXiW0gn3lRh3Ww/wBsz05zT5s97DSxRrsi6LHoJRY5IIWTGIJZlvKekAgGY7BbvhZBpkhinNflGqwIuIv0V9pPykCiFzXLzvMMdMaRF1FgKwGTZc90aLHZn3QRm6OfVWYa07T0rzFX0aJKJ1YsiOJWe0zpo1Wpmi5bicgZ0DoeKoAdm087TqqthYbNwtkJ53FcT4TUUtzrlxGhLTzPOVtC0hAWKhuOBi1rCd7RCtKkiZYrYnPFzt+3SOtwvu2Tk61vTKsNjZHPfa8XheM1S0y5k3keeoPb9+xsfSrwSpeculUvNtJp6ClY0sSib0aPQzJTaaEMqjkmjSJeUEtHOdgZDSxlGgCEsIhxHsYhzFsvAzuJq1IjGuCpsFDF+Y2W8SPCZKrT0GpdE9HTxMLM9mI91dw+vWNBXI3icihhfnt9fgdWEIToPEONr/RcSrUUZpk3wHf0PzM4tOewZQQQRcHIg5giec1hoBpNdbmmTkfc5H7yOSPVHpcHnTj4b59BCmTjJNl8YjFiNh1mmkLSR1yVDqVIDM5mPEWkuI5zSbZYypMsZQwMQqoZiq3GakqeRImyoJndZNnRjdGX/XVl3hviS/ytIfW9Ufw6R/8AoPrL1EmT0TOSFGzaTsXvk22uTOqMcb5xXuJ0bWD1KoVlpqCDhwBgb87k851fHy2TzunUcFgpOIG+LYb8uE06LrYgWqqSRsKjLvtfbPN4vh5zlqjublwWlLGtux2Tx+vyM4/4gqgLTW+Ze9uKgbZqTWCtlTB6iwE5GnUahqn0uZ2pb1cG63623k+G4aakpyVJBw+P/YtW1bldHedGiCYrRcK+snVc/KdbR1pt6rJ3E4T4GepBFM+WuhSkhmtFjVo2lwkukedLImQol4AQtNIsgyGkkSjGFmoS8Q5jKtUCdPQtWrk7lal7FQpvT7/zfKEY6uRSWRYlqkZdVatxkVag7IzRT7R3MeXz7tvoYQnTGNKjzM2WWWVv2eQQhCaSCJ0llVGL2KhSWBFwRwtvjpxvxDWsiIPaa5+Fd3iR4TJOlZTDj8Saj3OLTtckDCCSQLnLPZczUkzUppSc6PayGinLxSGMBmnLLmXkGSJEBRbiIdZpMQVxmwyG8xGVizMtI1DYZKPWbh/mMqKqLhUWA8SeJ5zWVCiwyEyaRMqh4y1PyOPXTEYk0Z0GpSDSktJ3xy0hOh07GdDWei+kohgO3Suw5r7Q8M+kVQSxnVojKPGO1HNmytTU10PO0M7TZTpg7pT/AE+BmUbAxA7t3lNFNYsUUyTT3RemhHqsw5Am3hNCtU4g99vpKIJoUR6OSciod+A85OJuA8ZcSY1MlfkIYvyEo1MnaZplGhQykZvRATVq/TPRthb92Tn+Q8Ry4xDxDQTp2ijisiqR6+E5WpdKxoUPrJa3NN3hs8J1Z1J2rPIyQcJOL6BCEJogTzf4hb9qg4UwepY/YT0k5+stCpVFLv2WVT2xtAGefERZq1R0cLkjjyJy9PeecRo9WmOnNKSCPYnGjShjkMzKY5TNOaSGwkAyGa0VsSitQ7htMui4RaVoi+Z3/KMMxA+xVpldZqIlGSaNF0ZCkqUmo05XBMorrF00mymMopFjlgic3ZmrU+33gfaHo42owxqN5Bt0lysWjNTSQpVjAJa0BGQrdlpBkyscwgmKcy7mJZoDxRVzEMYxjFMYheKH6prYa68G7B6jLzAnqp4zQ861K3/cp/1C89nL4+Rw/wBQjUovyCEIShwBObrqiz0WC3ys5A9oDaPr0nShMatUPjm4TUl0PDoY9Wm7WeqSpNSkLg5sgGanio3jlu+XLVpzSTT3PdhOOWOqP8GtWjVMyq0arTCcomlWi6rXIEqGlaRuxPCYJprc1rlLxYMsIyJUWhaF5MYUraQRLyJhtlAJcSskRQM+ki7LxAjadS+R2/PnKnN+4CWdL98Ud8khlpEUKlsm8Ze94wtFpDNKs0WzTbNUSWMSxgzRTPNstGJV3iWaWczo6m1fSqq7OCxD4QMRAAsDfLv8oJW6KTnHHDVLkK1FQL1cfs0wT/NawHzPSepmfRtFSmuFFwi9ztNzxuZol4xpHj8Tm8WepcugQhCMQCEIQAJi0nV9KpmyDF7w7LdTv6zbCFDRk4u4ujjNqNfZdh8QDfK0BqX/AHP+O3907MImiPYt/wCrN+r4L6HNp6pQbWduVwB5Z+c5emU1Sq6qMKjCAM/dB+s9NPNa0Nq7/wAhH/qv2izikti/CzlObUn0/dEK0crTIrRqtInVKJovCKDy6tHJaWWvC8i8i8xmUTeTeVvF1nsOZyEUagpG5J4mNi6eQly01IHzIdQdsQylfVMaWlS01oaNoSa/vCVNUHfGNaIdBEKxUSrVBKorv6iu3wqW+U6uoaYxubA9kbuf+J35WOO1ZDNxaxT0qN+38+Z5nRtSVHzqEIvDa56DITu6JoiUVwoDmbkk3JPEzTCVUUjhzcTky7Pl2QQhCMQCEIQAIQhAAhCEACEIQAJ57X6WdG3FcPVT9j5T0Mw610X0tIqPWHbTvG7qLjrFkrRfhsihlTfLl7/uecVo0NMiNGeknMezKG5qVpcGZUaMDQJuI+8nFE4pGOAmkdiiC+JuQyE16Bo5qNn6i5seP5YvTdCNE5XNMnsttw/lM3S6syMoqem9/wA+JXFJxTPjk44IfQNZpXFFM0oKk2xlEazRbNKs8ois7BFF2Y2A5zB1E72oE7DvxYAcwo+5PhOxEaLRFNFQbFFr8TvPU3j50xVKjw809eRyQQhCaTCEIQAIQhAAhCEACEIQAIQhAAhCEAOHrDU7PUx0yihs3DXHa4iw3/rbOXp2hPQZQxDBgSCL7rXHmJ7Cc/Wer/The1hZb4TtBva4PgJOUFzR3YOMlFxjN/4+nu8zzStLB5pfU1ddgV+auP7rSE1RpHuheZdbeRJktL7HoPLi56l70JxzToWivVOWSj1nOwchxM26LqQDOo2L8q3C9TtPlOwiBQAoAAyAAsBHji7nHm4yK2x7vv0+/wAvUpQoqihVFgPEniecu6BgQwBByIOYIl4Sx5zbbs8/p2p2F2o5j3Ccx3E7es5LYlOFgVI3MCDPbRVWkrizqrDgyhh5ybx9jtxcdKKqav5/Q8aakZ/pKuD0mA4Nt8r242225z0T6ooE39HbuLAHpeb1UAWGQGQA3TFj7lZ/1CKS0L1s8VRpPUOFFLHlu5k7p6PVerRSGJrNUIsSNijgPvOgiKosoAHAAARkaMEiGfjJZFpSpfMIQhHOMIQhAAhCEACEIQA//9k=" class=length length="600" width= "300">
+
+    
+    <p class="center">Spring Meal Plans</p>
+    <br><br>
+    <table> 
+        <!--This table is shown on all html pages besides forms-->
+        <tr>
+            <th><a href="index.html"> <button>Home</button></a></th>
+            <th><a href="index2.html"><button>Fall Plans</button></a></th>
+            <th><a href="index3.html"><button>Winter Plans</button></a></th>
+            <th><a href="index4.html"><button>Spring Plans</button></a></th>
+            <th><a href="index5.html"><button>Summer Plans</button></a></th>
+        </tr>
+    </table>
+    <center>
+    <br><br><br>
+    <p class="day">Day 1</p>
+    <hr width="50%" align="center">
+    <p class="big">Breakfast (400 cal)</p>
+    <p class="small">1 serving of <a href="index21.html">Greek Yogurt with Mixed Fruits</a></p>
+    <p class="small">Price: 1.80$</p>
+    <br>
+    <p class="big">AM Snack (95 cal) </p>
+    <p class="small">One medium apple</p>
+    <br>
+    <p class="big">Lunch (500 cal)</p>
+    <p class="small">1 serving of <a href="index18.html">Vegetable Quinoa Salad
+    </a></p>
+    <p class="small">Price: 3.80$</p>
+    <br>
+    <p class="big">PM Snack (290 cal) </p>
+    <p class="small">Cinnamon roasted chickpeas</p>
+    <br>
+    <p class="big"> Dinner (700)</p>
+    <p class="small">1 serving of <a href="grilledchick.html">Grilled Lemon Herb Chicken
+    </a></p>
+    <p class="small">Price: 7.00$</p>
+    <br><br><br>
+    <p class="day">Day 2</p>
+    <hr width="50%" align="center">
+    <p class="big">Breakfast (700 cal)</p>
+    <p class="small">1 serving of <a href="index24.html">Avocado Toast with Eggs
+
+    </a></p>
+    <p class="small">Price: 3.00$</p>
+    <br>
+    <p class="big">AM Snack (180 cal) </p>
+    <p class="small">One cup of cherry yogurt</p>
+    <br>
+    <p class="big">Lunch (620 cal)</p>
+    <p class="small">1 serving of <a href="caprese.html"> Caprese Salad
+
+    </a></p>
+    <p class="small">Price: 7.00$</p>
+    <br>
+    <p class="big">PM Snack (100 cal) </p>
+    <p class="small">One medium pear</p>
+    <br>
+    <p class="big"> Dinner (550 cal)</p>
+    <p class="small">1 serving of <a href="vegestir.css">Vegetable Stir-Fry with Chicken
+    </a></p>
+    <p class="small">Price: 2.60$</p>
+    <br><br><br>
+    <p class="day">Day 3</p>
+    <hr width="50%" align="center">
+    <p class="big">Breakfast (440 cal)</p>
+    <p class="small">1 serving of <a href="greeksmoothie.html">Mixed Berry Smoothie</a></p>
+    <p class="small">Price: 4.00$</p>
+    <br>
+    <p class="big">AM Snack (70 cal) </p>
+    <p class="small">Mango/Date energy bite</p>
+    <br>
+    <p class="big">Lunch (950 cal)</p>
+    <p class="small">1 serving of <a href="medsalad.html">Mediterranean Chickpea Salad
+    </a></p>
+    <p class="small">Price: 7.00$</p>
+    <br>
+    <p class="big">PM Snack (140 cal) </p>
+    <p class="small">Roasted pumpkin seeds</p>
+    <br>
+    <p class="big"> Dinner (500 cal)</p>
+    <p class="small">1 serving of <a href="bakecod.html">Baked Cod with Roasted Vegetables
+
+    </a></p>
+    <p class="small">Price: 13.00$</p>
+    <br><br><br>
+    <p class="day">Day 4</p>
+    <hr width="50%" align="center">
+    <p class="big">Breakfast (240 cal)</p>
+    <p class="small">1 serving of <a href="cranberry.html">Cranberry Oatmeal
+
+    </a></p>
+    <p class="small">Price: 1.50$</p>
+    <br>
+    <p class="big">AM Snack (500 cal) </p>
+    <p class="small">Baked kale chips with tahini and lemon zest</p>
+    <br>
+    <p class="big">Lunch (500 cal)</p>
+    <p class="small">1 serving of <a href="stuffchick.html">Spinach and Feta Stuffed Chicken Breast
+
+    </a></p>
+    <p class="small">Price: 10.00$</p>
+    <br>
+    <p class="big">PM Snack (205 cal) </p>
+    <p class="small">
+        Chickpea salad
+        </p>
+    <br>
+    <p class="big"> Dinner (600 cal)</p>
+    <p class="small">1 serving of <a href="index13.html">Vegetable Lentil Soup
+    </a></p>
+    <p class="small">Price: 2.80$</p>
+    <br><br><br>
+    <p class="day">Day 5</p>
+    <hr width="50%" align="center">
+    <p class="big">Breakfast (810 cal)</p>
+    <p class="small">1 serving of <a href="wholepancakes.html">Whole Grain Pancakes with Fruit
+
+    </a></p>
+    <p class="small">Price: 7.00$</p>
+    <br>
+    <p class="big">AM Snack (40 cal) </p>
+    <p class="small">1 clementine</p>
+    <br>
+    <p class="big">Lunch (650 cal)</p>
+    <p class="small">1 serving of <a href="index22.html"> Whole-grain wrap filled with hummus, shredded carrots, cucumber, and mixed 
+        Greens. 
+        </a></p>
+    <p class="small">Price: 3.80$</p>
+    <br>
+    <p class="big">PM Snack (65 cal) </p>
+    <p class="small">1 cup of rasberries</p>
+    <br>
+    <p class="big"> Dinner (630 cal)</p>
+    <p class="small">1 serving of <a href="vegpasta.html">Grilled Veggie Pasta
+
+    </a></p>
+    <p class="small">Price: 7.00$</p>
+    <br><br><br>
+    <p class="day">Day 6</p>
+    <hr width="50%" align="center">
+    <p class="big">Breakfast (430 cal)</p>
+    <p class="small">1 serving of <a href="scrameggs.html">Egg and Veggie Scramble</a></p>
+    <p class="small">Price: 3.00$</p>
+    <br>
+    <p class="big">AM Snack (600 cal) </p>
+    <p class="small">Sweet and Salty Roasted Nuts </p>
+    <br>
+    <p class="big">Lunch (370 cal)</p>
+    <p class="small">1 serving of <a href="quinbowl.html">Quinoa and Black Bean Bowl
+    </a></p>
+    <p class="small">Price: 4.00$</p>
+    <br>
+    <p class="big">PM Snack (85 cal) </p>
+    <p class="small">1 cup of blueberries</p>
+    <br>
+    <p class="big"> Dinner (560 cal)</p>
+    <p class="small">1 serving of <a href="chickceasar.html">Grilled Chicken Caesar Salad</a></p>
+    <p class="small">Price: 6.00$</p>
+    <br><br><br>
+    <p class="day">Day 7</p>
+    <hr width="50%" align="center">
+    <p class="big">Breakfast (400 cal)</p>
+    <p class="small">1 serving of <a href="index12.html">Greek Yogurt with Pears
+    </a></p>
+    <p class="small">Price: 2.50$</p>
+    <br>
+    <p class="big">AM Snack (300 cal) </p>
+    <p class="small">Banana, strawberry, and apple smoothie</p>
+    <br>
+    <p class="big">Lunch (420 cal)</p>
+    <p class="small">1 serving of <a href="vegfritatta.html">Spring Vegetable Frittata
+
+
+    </a></p>
+    <p class="small">Price: 3.00$</p>
+    <br>
+    <p class="big">PM Snack (200 cal) </p>
+    <p class="small">Carrots and hummus</p>
+    <br>
+    <p class="big"> Dinner (730 cal)</p>
+    <p class="small">1 serving of <a href="salmasp.html">Salmon with Roasted Asparagus
+    </a></p>
+    <p class="small">Price: 7.00$</p>
+    <br><br><br>
+</center>
+</body>
+</html>
